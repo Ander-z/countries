@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:background="@color/lightBlue"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Countries"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:id="@+id/ind"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="India"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/india"
+                    />
+
+                <Button
+                    android:id="@+id/japanB"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="Japan"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/japan"
+                    />
+
+                <Button
+                    android:id="@+id/skbutton"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="South Korea"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/sk"
+                    />
+
+                <Button
+                    android:id="@+id/uk"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="United Kingdom"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/uk"
+                    />
+
+                <Button
+                    android:id="@+id/us"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="United States"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/us"
+                    />
+                <Button
+                    android:id="@+id/ind"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="India"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/india"
+                    />
+
+                <Button
+                    android:id="@+id/japan"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="Japan"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/japan"
+                    />
+
+                <Button
+                    android:id="@+id/sk"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="South Korea"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/sk"
+                    />
+
+                <Button
+                    android:id="@+id/uk"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="United Kingdom"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/uk"
+                    />
+
+                <Button
+                    android:id="@+id/us"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="United States"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/us"
+                    />
+
+                <Button
+                    android:id="@+id/us"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="United States"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/us"
+                    />
+                <Button
+                    android:id="@+id/us"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="United States"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/us"
+                    />
+
+                <Button
+                    android:id="@+id/us"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="United States"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/us"
+                    />
+                <Button
+                    android:id="@+id/us"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="United States"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/us"
+                    />
+
+                <Button
+                    android:id="@+id/us"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:layout_margin="5dp"
+                    android:text="United States"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/us"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/lightBlue"
+        android:gravity="bottom">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:padding="10dp"
+            android:text="Source"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
